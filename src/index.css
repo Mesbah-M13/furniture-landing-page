@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary;
+    @apply text-gray-700;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-gray-900;
+  }
+
+  .section {
+    @apply py-[50px] lg:py-[70px];
+  }
+  .title {
+    @apply text-2xl lg:text-[40px] leading-tight font-semibold mb-4;
+  }
+  .subtitle {
+    @apply text-[18px] lg:text-[20px] leading-relaxed mb-5 lg:mb-9;
+  }
+}
